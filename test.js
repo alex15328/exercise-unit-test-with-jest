@@ -24,5 +24,5 @@ test("One thousand yenes should be 5.56 pounds", function() {
     const expected = (1000 / 156.5) * 0.87;
 
     
-    expect(pounds).toBeCloseTo(expected, 2); // Usamos toBeCloseTo para manejar decimales
+    expect(pounds).toBeCloseTo(expected, 2); 
 });
